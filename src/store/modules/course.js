@@ -114,9 +114,6 @@ const actions = {
         type: row[columns.type] || 'answer'
       })
     }
-    if (context.state.minDay === Number.POSITIVE_INFINITY) {
-      context.commit('minDay', 1)
-    }
   },
   checkAnswers (context) {
     const actualQuestion = context.state.actualQuestion
@@ -163,6 +160,10 @@ const actions = {
     context.dispatch('updateWorksheet', actualQuestion)
   },
   filterQuestions (context) {
+    if (context.state.minDay === Number.POSITIVE_INFINITY) {
+      context.commit('minDay', 1)
+    }
+
     // filter test and training
     context.state.questions.forEach(
       question => {
