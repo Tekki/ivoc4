@@ -4,7 +4,7 @@
 
 iVoc is a vocabulary and form trainer that stores its data in spreadsheets on [OneDrive Personal](https://onedrive.live.com/about/de-de/) or [OneDrive for Business](https://onedrive.live.com/about/de-de/business/). It works according to the learning method described by [Sebastian Leitner](https://en.wikipedia.org/wiki/Leitner_system). In short, this means that the program knows when and how often it has to ask which question.
 
-You find a live version of iVoc4 at [ivoc.tekki.ch](https://ivoc.tekki.ch/). Take a look at the [sample course]((https://ivoc.tekki.ch/#/course/sample) to see how it works.
+You find a live version of iVoc4 at [ivoc.tekki.ch](https://ivoc.tekki.ch/). Take a look at the [sample course](https://ivoc.tekki.ch/#/course/sample) to see how it works.
 
 # Learn, learn, learn
 
@@ -52,7 +52,7 @@ The App ID included in this repo will only allow you to work on [localhost:8080]
 
 The number 4 correctly suggests that this is not the first version of the program.
 
-The iVoc project started in the years when every name related to computers had to start with 'i', around 2006 or 2007. **iVoc1** was a [Java](https://java.com/) application that stored its data in Excel files. As a Java program, it could run on all operating systems, but you had to copy the spreadsheets from one computer to the other. Software history rarely leaves traces, so there is probably not a single copy of iVoc1 existing in this world.
+The iVoc project started in the years when every name related to computers had to start with 'i', around 2006 or 2007. **iVoc1** was a [Java](https://java.com/) application that stored its data in Excel files. As a Java program, it could run on all operating systems, but you had to copy the spreadsheets from one computer to the other. Software history rarely leaves traces and there is probably not a single copy of iVoc1 existing in this world.
 
 **iVoc2**, build in 2008, was the same program with a friendlier user interface. It had a lot of semi-transparent elements; something that still echoes in the actual logo.
 
