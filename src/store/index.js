@@ -18,7 +18,10 @@ const userAgent = graph.createUserAgent()
 const actions = {
   login (context) {
     graph.login(context.state.userAgent).then(
-      userName => context.dispatch('setUserName', userName),
+      res => {
+        context.dispatch('setUserName', res.userName)
+        context.commit('accessToken', res.accessToken)
+      },
       error => context.commit('error', error)
     )
   },
@@ -59,6 +62,9 @@ const getters = {
 // mutations
 
 const mutations = {
+  accessToken (state, payload) {
+    state.accessToken = payload
+  },
   error (state, payload) {
     state.error = payload ? payload.replace(/.*\|/, '') : null
   },
@@ -70,6 +76,7 @@ const mutations = {
 // state
 
 const state = {
+  accessToken: null,
   error: null,
   fileList: null,
   userName: null,

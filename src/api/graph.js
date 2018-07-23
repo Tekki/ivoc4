@@ -26,19 +26,19 @@ export default {
       () => {}, { redirectUri }
     )
   },
-  get (userAgent, endpoint) {
+  get (userAgent, endpoint, accessToken) {
     return new Promise(
       (resolve, reject) => {
-        фн.accessToken(userAgent).then(
-          accessToken => {
-            let config = {
-              headers: { Authorization: `Bearer ${accessToken}` }
-            }
-            let url = `${graphUrl}/${endpoint}`
-            axios.get(url, config).then(resolve, reject)
-          },
-          reject
-        )
+        // фн.accessToken(userAgent).then(
+        //   accessToken => {
+        let config = {
+          headers: { Authorization: `Bearer ${accessToken}` }
+        }
+        let url = `${graphUrl}/${endpoint}`
+        axios.get(url, config).then(resolve, reject)
+        //   },
+        //   reject
+        // )
       }
     )
   },
@@ -48,7 +48,10 @@ export default {
         userAgent.loginPopup(apiScopes).then(
           idToken => {
             let userName = decodeURIComponent(escape(userAgent.getUser().name))
-            resolve(userName)
+            фн.accessToken(userAgent).then(
+              accessToken => resolve({userName, accessToken}),
+              reject
+            )
           },
           reject
         )

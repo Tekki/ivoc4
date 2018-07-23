@@ -184,7 +184,9 @@ const actions = {
       context.dispatch('filterQuestions')
     } else {
       graph.get(
-        context.rootState.userAgent, `me/drive/items/${id}/workbook/worksheets`
+        context.rootState.userAgent,
+        `me/drive/items/${id}/workbook/worksheets`,
+        context.rootState.accessToken
       ).then(
         response => {
           context.commit('id', id)
@@ -201,7 +203,8 @@ const actions = {
     let sheet = context.state.worksheets[0]
     graph.get(
       context.rootState.userAgent,
-      `me/drive/items/${id}/workbook/worksheets/${sheet.id}/UsedRange`
+      `me/drive/items/${id}/workbook/worksheets/${sheet.id}/UsedRange`,
+      context.rootState.accessToken
     ).then(
       response => context.commit('metadata', response.data.values),
       error => context.commit('error', error, {root: true})
@@ -215,7 +218,8 @@ const actions = {
       topic => {
         return graph.get(
           context.rootState.userAgent,
-          `me/drive/items/${id}/workbook/worksheets/${topic.id}/UsedRange`
+          `me/drive/items/${id}/workbook/worksheets/${topic.id}/UsedRange`,
+          context.rootState.accessToken
         ).then(
           response => context.dispatch('analyzeTopic', {topic, values: response.data.values}),
           error => context.commit('error', error, {root: true})
@@ -249,7 +253,12 @@ const actions = {
       const data = {
         values: [[ question.day, question.box, question.training || '' ]]
       }
-      graph.patch(context.rootState.userAgent, url, data).then(
+      graph.patch(
+        context.rootState.userAgent,
+        url,
+        data,
+        context.rootState.accessToken
+      ).then(
         response => {},
         error => context.commit('error', error, {root: true})
       )

@@ -4,7 +4,11 @@ import graph from '../../api/graph'
 
 const actions = {
   listFiles (context) {
-    graph.get(context.rootState.userAgent, 'me/drive/special/approot/children').then(
+    graph.get(
+      context.rootState.userAgent,
+      'me/drive/special/approot/children',
+      context.rootState.accessToken
+    ).then(
       response => context.commit('files', response.data.value),
       error => context.commit('error', error, {root: true})
     )
