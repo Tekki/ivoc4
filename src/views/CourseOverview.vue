@@ -22,7 +22,7 @@
               <td align="right">{{ todayWrong }}</td>
               <td align="right">{{ todayWrongPercent }} %</td>
             </tr>
-            <tr>
+            <tr v-if="todayQuestions > 0">
               <td colspan="3">
                 <b-progress class="mt-1" :max="todayQuestions">
                   <b-progress-bar :value="todayCorrect" variant="success"></b-progress-bar>

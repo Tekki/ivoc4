@@ -250,7 +250,7 @@ const actions = {
         values: [[ question.day, question.box, question.training || '' ]]
       }
       graph.patch(context.rootState.userAgent, url, data).then(
-        response => {},
+        response => context.commit('error', false, {root: true}),
         error => context.commit('error', error, {root: true})
       )
     }

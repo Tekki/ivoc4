@@ -28,7 +28,7 @@ const actions = {
   setUserName (context, userName) {
     if (userName) {
       context.commit('userName', userName)
-      context.commit('error', null)
+      context.commit('error', false)
     }
   }
 }
@@ -36,31 +36,25 @@ const actions = {
 // getters
 
 const getters = {
-  appId: state => {
-    return state.userAgent.clientId
-  },
-  error: state => {
-    return state.error
-  },
-  fileList: state => {
-    return state.fileList
-  },
-  hasError: state => {
-    return state.error != null
-  },
-  loggedIn: state => {
-    return state.userName != null
-  },
-  userName: state => {
-    return state.userName
-  }
+  appId: state => state.userAgent.clientId,
+  error: state => state.error,
+  fileList: state => state.fileList,
+  hasError: state => state.error != null,
+  loggedIn: state => state.userName != null,
+  userName: state => state.userName
 }
 
 // mutations
 
 const mutations = {
   error (state, payload) {
-    state.error = payload ? payload.replace(/.*\|/, '') : null
+    if (!payload) {
+      state.error = null
+    } else if (payload.hasOwnProperty('message')) {
+      state.error = payload.message
+    } else {
+      state.error = payload.replace(/.*\|/, '')
+    }
   },
   userName (state, payload) {
     state.userName = payload

@@ -31,10 +31,10 @@ export default {
       (resolve, reject) => {
         фн.accessToken(userAgent).then(
           accessToken => {
-            let config = {
+            const config = {
               headers: { Authorization: `Bearer ${accessToken}` }
             }
-            let url = `${graphUrl}/${endpoint}`
+            const url = `${graphUrl}/${endpoint}`
             axios.get(url, config).then(resolve, reject)
           },
           reject
@@ -47,7 +47,7 @@ export default {
       (resolve, reject) => (
         userAgent.loginPopup(apiScopes).then(
           idToken => {
-            let userName = decodeURIComponent(escape(userAgent.getUser().name))
+            const userName = decodeURIComponent(escape(userAgent.getUser().name))
             resolve(userName)
           },
           reject
@@ -63,10 +63,10 @@ export default {
       (resolve, reject) => {
         фн.accessToken(userAgent).then(
           accessToken => {
-            let config = {
+            const config = {
               headers: { Authorization: `Bearer ${accessToken}` }
             }
-            let url = `${graphUrl}/${endpoint}`
+            const url = `${graphUrl}/${endpoint}`
             axios.patch(url, data, config).then(resolve, reject)
           },
           reject
