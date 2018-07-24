@@ -20,9 +20,13 @@ Finally, those working at this project can **learn from you** if you open an iss
 
 The simplest way to use iVoc for language training is to log in with your Microsoft Personal or Business Account to the [live version](https://ivoc.tekki.ch/). This will create an application folder `iVoc4` in your OneDrive.
 
+![sample spreadsheet](https://ivoc.tekki.ch/images/sample_spreadsheet.png)
+
 Next, download the template listed on the [About page](https://ivoc.tekki.ch/#/about). Create a new Excel spreadsheet following the instructions in the template and copy it to the `iVoc4` folder. To get active, the name of the file has to start with `iVoc-` and to end with `.xlsx`, for example `iVoc-my first foreign language.xlsx`. Other files will be listed, but iVoc won't open them. Press the **Refresh** button to update the file list, or if you're logged out, log in again. Click on the name of the file and start learning.
 
 While you answer questions, the spreadsheet is updated continuously. You can stop anytime and continue later at the same place, on the same or on another machine.
+
+![test statistics](https://ivoc.tekki.ch/images/test_statistics.png)
 
 If you're concerned about **your privacy** note that only the application running in your browser, not our server accesses your data on OneDrive and that its permissions are limited to the `iVoc4` folder.
 
