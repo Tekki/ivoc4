@@ -1,5 +1,5 @@
 <template>
-  <b-card class="course-question" @keydown.enter="$router.push({name: 'answer'})">
+  <b-card class="course-question" @keydown.enter.stop="$router.push({name: 'answer'})">
     <h4 slot="header">
       {{ actualType }}
       <b-badge class="float-right" pill>{{ actualQuestionCount }}</b-badge>
@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import {mapActions, mapGetters} from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'course-question',

@@ -1,15 +1,17 @@
 <template>
   <div>
-    <h4 class="display-4">
-      {{ title }}
-      <span class="float-right"><small><b-badge pill>{{ questionCount }}</b-badge></small></span>
-    </h4>
+    <b-container>
+      <h4 class="display-4">
+        {{ title }}
+        <span class="float-right"><small><b-badge pill>{{ questionCount }}</b-badge></small></span>
+      </h4>
+    </b-container>
     <router-view />
   </div>
 </template>
 
 <script>
-import {mapGetters} from 'vuex'
+import { mapGetters } from 'vuex'
 
 export default {
   name: 'course',

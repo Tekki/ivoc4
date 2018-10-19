@@ -177,7 +177,7 @@ const actions = {
     )
   },
   loadCourse (context, id) {
-    context.commit('error', false, {root: true})
+    context.commit('error', false, { root: true })
     context.commit('resetState')
     if (id === sampleId) {
       context.commit('sampleData')
@@ -192,7 +192,7 @@ const actions = {
           context.dispatch('loadMetadata')
           context.dispatch('loadTopics')
         },
-        error => context.commit('error', error, {root: true})
+        error => context.commit('error', error, { root: true })
       )
     }
   },
@@ -204,7 +204,7 @@ const actions = {
       `me/drive/items/${id}/workbook/worksheets/${sheet.id}/UsedRange`
     ).then(
       response => context.commit('metadata', response.data.values),
-      error => context.commit('error', error, {root: true})
+      error => context.commit('error', error, { root: true })
     )
   },
   loadTopics (context) {
@@ -217,8 +217,8 @@ const actions = {
           context.rootState.userAgent,
           `me/drive/items/${id}/workbook/worksheets/${topic.id}/UsedRange`
         ).then(
-          response => context.dispatch('analyzeTopic', {topic, values: response.data.values}),
-          error => context.commit('error', error, {root: true})
+          response => context.dispatch('analyzeTopic', { topic, values: response.data.values }),
+          error => context.commit('error', error, { root: true })
         )
       }
     )
@@ -250,8 +250,8 @@ const actions = {
         values: [[ question.day, question.box, question.training || '' ]]
       }
       graph.patch(context.rootState.userAgent, url, data).then(
-        response => context.commit('error', false, {root: true}),
-        error => context.commit('error', error, {root: true})
+        response => context.commit('error', false, { root: true }),
+        error => context.commit('error', error, { root: true })
       )
     }
   }

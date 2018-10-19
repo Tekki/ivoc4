@@ -15,12 +15,7 @@
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">
-        <b-nav-item-dropdown
-            v-if="loggedIn"
-            :text="userName"
-            right>
-          <b-dropdown-item @click="logout">Logout</b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-text v-if="loggedIn" right>{{ userName }}</b-nav-text>
       </b-navbar-nav>
 
     </b-collapse>
