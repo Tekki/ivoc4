@@ -7,7 +7,7 @@
       </h4>
     </b-container>
     <router-view />
-  </div>
+   </div>
 </template>
 
 <script>

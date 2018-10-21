@@ -1,0 +1,640 @@
+{
+    "boxes": 5,
+    "questions": [
+        {
+            "answers": [
+                "ja"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "yes",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "nein"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "no",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "hallo"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "hi",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "bitte"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "please",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "danke"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "thank you",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "bitte sehr"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "you're welcome",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Entschuldigung"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "excuse me",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "auf Wiedersehen"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "goodbye",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "eins",
+                "ein, eine"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "one",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "zwei"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "two",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "drei"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "three",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Hälfte",
+                "halb"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "half",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "weniger"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "less",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "mehr"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "more",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "jetzt"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "now",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "später"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "later",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "vorher"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "before",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Morgen"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "morning",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Nachmittag"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "afternoon",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Abend"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "evening",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Nacht"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "night",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "heute"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "today",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "gestern"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "yesterday",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "morgen"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "tomorrow",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "diese Woche"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "this week",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "letzte Woche"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "last week",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "nächste Woche"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "next week",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Mittag"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "noon",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Mittag"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "midday",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Mitternacht"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "midnight",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "schwarz"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "black",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "weiss"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "white",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "grau"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "grey, gray",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "rot"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "red",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "grün"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "green",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "blau"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "blue",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "gelb"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "yellow",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Bahnhof"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "train station",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Bushaltestelle"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "bus station",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "Flughafen"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "airport",
+            "topic": "EnDe",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "eins",
+                "one",
+                "un"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "1",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "zwei",
+                "two",
+                "deux"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "2",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "drei",
+                "three",
+                "trois"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "3",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "vier",
+                "four",
+                "quatre"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "4",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "fünf",
+                "five",
+                "cinq"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "5",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "sechs",
+                "six",
+                "six"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "6",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "sieben",
+                "seven",
+                "sept"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "7",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "acht",
+                "eight",
+                "huit"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "8",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "neun",
+                "nine",
+                "neuf"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "9",
+            "topic": "numbers",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "j\"aime",
+                "tu aimes",
+                "il aime, elle aime",
+                "nous aimons",
+                "vous aimez",
+                "ils aiment, elles aiment"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "aimer",
+            "topic": "french",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "je finis",
+                "tu finis",
+                "il finit, elle finit",
+                "nous finissons",
+                "vous finissez",
+                "ils finissent, elles finissent"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "finir",
+            "topic": "french",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "je sors",
+                "tu sors",
+                "il sort, elle sort",
+                "nous sortons",
+                "vous sortez",
+                "ils sortent, elles sortent"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "sortir",
+            "topic": "french",
+            "training": null,
+            "type": "form"
+        },
+        {
+            "answers": [
+                "je vois",
+                "tu vois",
+                "il voit, elle voit",
+                "nous voyons",
+                "vous voyez",
+                "ils voient, elles voient"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "voir",
+            "topic": "french",
+            "training": null,
+            "type": "form"
+        }
+    ],
+    "title": "Sample Language Course",
+    "worksheets": {
+        "EnDe": {
+            "name": "English-German"
+        },
+        "french": {
+            "name": "French conjugation"
+        },
+        "numbers": {
+            "name": "Numbers in German, English and French"
+        }
+    }
+}

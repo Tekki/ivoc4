@@ -4,7 +4,7 @@
     <h3>Learning System</h3>
     <div slot="footer">
       <b-button class="mr-2" size="lg" variant="success" @click="login">Login</b-button>
-      or go to the <router-link to="/course/sample">sample course</router-link>.
+      or go to the <router-link to="/course/sample1">sample course</router-link>.
     </div>
   </b-card>
 </template>
