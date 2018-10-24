@@ -10,9 +10,23 @@
       It works according to the learning method described by
       <b-link href="https://en.wikipedia.org/wiki/Leitner_system" target="_blank">Sebastian Leitner</b-link>.
       In short, this means that the program knows when and how often it has to ask which question.
-      Take a look at our <router-link to="/course/sample">sample course</router-link>
-      to see how it works.
     </p>
+    <h4>Sample courses</h4>
+    <p>
+      Take a look at one of our sample courses to see how the program works:
+    </p>
+    <b-row class="justify-content-md-center mb-3">
+      <b-list-group>
+        <b-list-group-item
+            v-for="(sample, index) in sampleCourses"
+            :key="index"
+            :to="sample.link"
+            >
+          <strong>{{ sample.title }}</strong> {{ sample.description}}
+        </b-list-group-item>
+      </b-list-group>
+    </b-row>
+    <p>Please notice that sample courses don't save your progress.</p>
     <h4>Application Folder</h4>
     <p>
       After the first login, the program will create an application folder called
@@ -71,6 +85,10 @@ export default {
           description: 'Magyar-Német Szókincs, Hungarian-German Vocabulary',
           url: 'https://1drv.ms/x/s!ApzJglF9t0d6irsGPOlrYBNYmW1cwQ'
         }
+      ],
+      sampleCourses: [
+        { title: 'Language Course', description: 'Translations between English, German and French', link: '/course/sample1' },
+        { title: 'Vimtutor', description: 'Most of the commands from Vim Tutor', link: '/course/sample2' }
       ]
     }
   }

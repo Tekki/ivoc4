@@ -4,7 +4,7 @@
 
 iVoc is a vocabulary and form trainer that stores its data in spreadsheets on [OneDrive Personal](https://onedrive.live.com/about/de-de/) or [OneDrive for Business](https://onedrive.live.com/about/de-de/business/). It works according to the learning method described by [Sebastian Leitner](https://en.wikipedia.org/wiki/Leitner_system). In short, this means that the program knows when and how often it has to ask which question.
 
-You find a live version of iVoc4 at [ivoc.tekki.ch](https://ivoc.tekki.ch/). Take a look at the [sample course](https://ivoc.tekki.ch/#/course/sample) to see how it works.
+You find a live version of iVoc4 at [ivoc.tekki.ch](https://ivoc.tekki.ch/). Take a look at the [sample language course](https://ivoc.tekki.ch/#/course/sample1) or the [sample vimtutor](https://ivoc.tekki.ch/#/course/sample2) to see how it works.
 
 # Learn, learn, learn
 

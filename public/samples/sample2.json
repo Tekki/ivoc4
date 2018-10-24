@@ -1,0 +1,584 @@
+{
+    "boxes": 5,
+    "questions": [
+        {
+            "answers": [
+                "k"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "move up",
+            "topic": "moving",
+            "training": null,
+            "type": "answer"
+        },
+        {
+            "answers": [
+                "j"
+            ],
+            "box": 1,
+            "day": 1,
+            "question": "move down",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "h"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move left",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "l"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move right",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "ESC"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "exit to Normal mode",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":q!"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "exit discarding changes",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "x"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete character under cursor",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "i"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "insert at cursor position",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "A"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "append at the end of the line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":wq"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "save file and exit",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "dw"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete word",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "d$"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete to the end of the line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "de"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete to the end of the current word",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "2w"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move two words forward",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "3e"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move to the end of the third word",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "0"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move to the start of the line",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "d2w"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete two words",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "dd"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete current line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "2dd"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete two lines",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "u"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "undo last command",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "U"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "undo all changes in the current line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "C-r"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "redo last command",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "p"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "put deleted text after the cursor",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "rx"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "replace the character at the cursor with x",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "ce"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "change to the end of the word",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "c$"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "change to the end of the line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "C-g"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "show location in the file",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "G"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move to the bottom of the file",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "gg"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "move to the start of the file",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "43G"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "jump to line 43",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "/abc"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "search for abc",
+              "topic": "searching",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "n"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "search again, forward",
+              "topic": "searching",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "N"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "search again, backwards",
+              "topic": "searching",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "?abc"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "search for abc, backwards",
+              "topic": "searching",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "C-o"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "jump back to where you came from",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "C-i"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "jump forward to where you came from",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "%"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "jump to a matching (), [], {}",
+              "topic": "moving",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":s/old/new"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "replace next 'old' with 'new' in the line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":s/old/new/g"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "replace all 'old' with 'new' in the line",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":%s/old/new/g"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "replace all 'old' with 'new' in the file",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":!ls",
+                  ":!dir"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "list files (external)",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":w test"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "save file as 'test'",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":!rm test",
+                  ":!del test"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "delete file 'test' (external)",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "v"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "enter Visual mode",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":r test"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "retrieve content of file 'test'",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  ":r!ls",
+                  ":r!dir"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "read and insert output of list command",
+              "topic": "commands",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "o"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "open new line below cursor",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "O"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "open new line above cursor",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "a"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "append text after the cursor",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "R"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "replace multiple characters",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          },
+          {
+              "answers": [
+                  "y2w"
+              ],
+              "box": 1,
+              "day": 1,
+              "question": "yank (copy) the next two words",
+              "topic": "editing",
+              "training": null,
+              "type": "answer"
+          }
+      ],
+      "title": "Sample Vimtutor",
+      "worksheets": {
+          "commands": {
+              "name": "Commands"
+          },
+          "editing": {
+              "name": "Editing"
+          },
+          "moving": {
+              "name": "Moving"
+          },
+          "searching": {
+            "name": "Searching"
+        }
+    }
+}
