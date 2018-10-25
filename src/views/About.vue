@@ -55,8 +55,19 @@
 </template>
 
 <script>
+import bLink from 'bootstrap-vue/es/components/link/link'
+import bListGroup from 'bootstrap-vue/es/components/list-group/list-group'
+import bListGroupItem from 'bootstrap-vue/es/components/list-group/list-group-item'
+import bRow from 'bootstrap-vue/es/components/layout/row'
+
 export default {
   name: 'about',
+  components: {
+    bLink,
+    bListGroup,
+    bListGroupItem,
+    bRow
+  },
   data () {
     return {
       learningTables: [

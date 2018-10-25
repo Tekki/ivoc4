@@ -11,10 +11,16 @@
 </template>
 
 <script>
+import bBadge from 'bootstrap-vue/es/components/badge/badge'
+import bContainer from 'bootstrap-vue/es/components/layout/container'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'course',
+  components: {
+    bBadge,
+    bContainer
+  },
   computed: {
     ...mapGetters(
       'course',

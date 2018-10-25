@@ -23,10 +23,23 @@
 </template>
 
 <script>
+import bNavbar from 'bootstrap-vue/es/components/navbar/navbar'
+import bNavbarBrand from 'bootstrap-vue/es/components/navbar/navbar-brand'
+import bNavbarNav from 'bootstrap-vue/es/components/navbar/navbar-nav'
+import bNavbarToggle from 'bootstrap-vue/es/components/navbar/navbar-toggle'
+import bNavItem from 'bootstrap-vue/es/components/nav/nav-item'
+
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'Navbar',
+  components: {
+    bNavbar,
+    bNavbarBrand,
+    bNavbarNav,
+    bNavbarToggle,
+    bNavItem
+  },
   computed: {
     ...mapActions(['logout']),
     ...mapGetters(['loggedIn', 'userName'])

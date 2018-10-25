@@ -3,10 +3,14 @@
 </template>
 
 <script>
+import bAlert from 'bootstrap-vue/es/components/alert/alert'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'error',
+  components: {
+    bAlert
+  },
   computed: {
     ...mapGetters(['error', 'hasError'])
   }

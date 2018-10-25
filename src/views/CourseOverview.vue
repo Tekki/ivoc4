@@ -57,10 +57,28 @@
 </template>
 
 <script>
+import bBadge from 'bootstrap-vue/es/components/badge/badge'
+import bButton from 'bootstrap-vue/es/components/button/button'
+import bCard from 'bootstrap-vue/es/components/card/card'
+import bCol from 'bootstrap-vue/es/components/layout/col'
+import bFormGroup from 'bootstrap-vue/es/components/form-group/form-group'
+import bRow from 'bootstrap-vue/es/components/layout/row'
+import bProgress from 'bootstrap-vue/es/components/progress/progress'
+import bProgressBar from 'bootstrap-vue/es/components/progress/progress-bar'
 import { mapGetters } from 'vuex'
 
 export default {
   name: 'course-overview',
+  components: {
+    bBadge,
+    bButton,
+    bCard,
+    bCol,
+    bFormGroup,
+    bRow,
+    bProgress,
+    bProgressBar
+  },
   computed: {
     ...mapGetters(
       'course',

@@ -10,10 +10,16 @@
 </template>
 
 <script>
+import bButton from 'bootstrap-vue/es/components/button/button'
+import bCard from 'bootstrap-vue/es/components/card/card'
 import { mapActions } from 'vuex'
 
 export default {
   name: 'Login',
+  components: {
+    bButton,
+    bCard
+  },
   methods: {
     ...mapActions(['login'])
   }

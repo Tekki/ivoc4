@@ -49,10 +49,26 @@
 </template>
 
 <script>
+import bBadge from 'bootstrap-vue/es/components/badge/badge'
+import bButton from 'bootstrap-vue/es/components/button/button'
+import bCard from 'bootstrap-vue/es/components/card/card'
+import bCol from 'bootstrap-vue/es/components/layout/col'
+import bFormGroup from 'bootstrap-vue/es/components/form-group/form-group'
+import bFormInput from 'bootstrap-vue/es/components/form-input/form-input'
+import bRow from 'bootstrap-vue/es/components/layout/row'
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'course-question',
+  components: {
+    bBadge,
+    bButton,
+    bCard,
+    bCol,
+    bFormInput,
+    bFormGroup,
+    bRow
+  },
   computed: {
     ...mapGetters(
       'course',
