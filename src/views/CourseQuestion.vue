@@ -7,7 +7,7 @@
 
     <p>{{ actualTopic }}</p>
     <b-row class="justify-content-md-center">
-      <b-col md="auto">
+      <b-col md="4">
         <h3>{{ theQuestion }}</h3>
         <h1><b-badge variant="primary">?</b-badge></h1>
       </b-col>

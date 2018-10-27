@@ -7,7 +7,7 @@
 
     <p>{{ actualTopic }}</p>
     <b-row class="justify-content-md-center">
-      <b-col md="auto">
+      <b-col md="4">
         <h3>{{ theQuestion }}</h3>
         <h1 v-if="allCorrect"><b-badge variant="success">✓</b-badge></h1>
         <h1 v-else><b-badge variant="danger">✗</b-badge></h1>
@@ -88,11 +88,8 @@ export default {
     this.$store.dispatch('course/checkAnswers')
   },
   mounted () {
-    if (this.noMoreQuestions) {
-      this.$refs.finish.$el.focus()
-    } else {
-      this.$refs.nextQuestion.$el.focus()
-    }
+    const focusEl = this.noMoreQuestions ? this.$refs.finish.$el : this.$refs.nextQuestion.$el
+    setTimeout(() => focusEl.focus(), 100)
   }
 }
 </script>
