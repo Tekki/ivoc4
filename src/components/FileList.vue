@@ -17,10 +17,24 @@
 </template>
 
 <script>
+import bButton from 'bootstrap-vue/es/components/button/button'
+import bCard from 'bootstrap-vue/es/components/card/card'
+import bCol from 'bootstrap-vue/es/components/layout/col'
+import bListGroup from 'bootstrap-vue/es/components/list-group/list-group'
+import bListGroupItem from 'bootstrap-vue/es/components/list-group/list-group-item'
+import bRow from 'bootstrap-vue/es/components/layout/row'
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
   name: 'FileList',
+  components: {
+    bButton,
+    bCard,
+    bCol,
+    bListGroup,
+    bListGroupItem,
+    bRow
+  },
   computed: {
     ...mapGetters(['userName']),
     ...mapGetters('filelist', ['files'])
